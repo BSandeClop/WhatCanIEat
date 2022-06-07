@@ -1,0 +1,25 @@
+El front se hace en react, y el backend en java con spring.
+Para facilidad, el repo contiene las dos cosas.
+
+El front en ReactJS hace calls al API REST que se hace con Spring Data.
+
+La idea de la pagina es poner uno o varios ingredientes u opciones varias y que te tire una comida random segun los criterios.
+
+Los criterios son: 
+Nombre del plato: Empanadas, Falafel, Fried rice. (En ingles y en su idioma original)
+Familia de ingredientes: Carne, Lacteos, Vegetales, etc.
+Detalle de ingredientes: Entrecot, Chaucha, Queso brie, etc.
+Temperatura: Frio o caliente.
+Sabor: Dulce, Amargo, Salado, Acido y Umami.
+Continente: Africa, America, Asia, Europa, Oceania.
+Pais: India, Italia, Argentina, Francia, etc.
+Tags extra: Rico, barato, etc.
+
+
+La pagina debera ser bilingue, en ingles y espanol argentinizado.
+La pagina debera tener un modo oscuro.
+La pagina debera tener un submit donde la gente envie sus sugerencias y caigan en una bandeja.
+La pagina debera tener un login para que el admin entre a la bandeja y revise las sugerencias.
+
+La v1 debe contener las siguientes funcionalidades:
+Buscar por todos los criterios mencionados anteriormente.
