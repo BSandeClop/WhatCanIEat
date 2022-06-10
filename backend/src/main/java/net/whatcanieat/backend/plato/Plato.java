@@ -17,7 +17,7 @@ public class Plato {
     
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
+    private long id;
 
     private String engName;
     private String ogName;
@@ -48,6 +48,77 @@ public class Plato {
                 + ", pais=" + pais + ", sabor=" + sabor + ", temperatura=" + temperatura + "]";
     }
 
+
+    public long getId() {
+        return id;
+    }
+
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+
+    public String getEngName() {
+        return engName;
+    }
+
+
+    public void setEngName(String engName) {
+        this.engName = engName;
+    }
+
+
+    public String getOgName() {
+        return ogName;
+    }
+
+
+    public void setOgName(String ogName) {
+        this.ogName = ogName;
+    }
+
+
+    public Temperatura getTemperatura() {
+        return temperatura;
+    }
+
+
+    public void setTemperatura(Temperatura temperatura) {
+        this.temperatura = temperatura;
+    }
+
+
+    public Sabor getSabor() {
+        return sabor;
+    }
+
+
+    public void setSabor(Sabor sabor) {
+        this.sabor = sabor;
+    }
+
+
+    public Continente getContinente() {
+        return continente;
+    }
+
+
+    public void setContinente(Continente continente) {
+        this.continente = continente;
+    }
+
+
+    public String getPais() {
+        return pais;
+    }
+
+
+    public void setPais(String pais) {
+        this.pais = pais;
+    }
+
+    
         
 
 }
