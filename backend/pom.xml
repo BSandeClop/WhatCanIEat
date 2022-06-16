@@ -8,11 +8,15 @@
 		<version>2.7.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>net.whatcanieat.backend</groupId>
+	<groupId>net.whatcanieat</groupId>
 	<artifactId>backend</artifactId>
+
 	<version>0.0.1-SNAPSHOT</version>
+
 	<name>backend</name>
-	<description>Backend for WhatCanIEat.net</description>
+
+	<description>Fullstack project for WhatCanIEat.net</description>
+
 	<properties>
 		<java.version>17</java.version>
 	</properties>
