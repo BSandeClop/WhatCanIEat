@@ -1,16 +1,22 @@
 package net.whatcanieat.backend.plato;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import net.whatcanieat.backend.platoingrediente.PlatoIngredienteRepository;
-
 @Service
 public class PlatoService {
-    //TODO Write code
-    @Autowired
-    private PlatoRepository platoRepo;
-    @Autowired
-    private PlatoIngredienteRepository platoIngRepo;
+
+	private final PlatoRepository platoRepository;
+
+	@Autowired
+	public PlatoService(PlatoRepository platoRepository) {
+		this.platoRepository = platoRepository;
+	}
+
+	public List<Plato> getPlatos() {
+		return platoRepository.findAll();
+	}
 
 }

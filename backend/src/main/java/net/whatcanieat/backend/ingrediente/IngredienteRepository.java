@@ -1,8 +1,9 @@
 package net.whatcanieat.backend.ingrediente;
-import org.springframework.data.repository.CrudRepository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface IngredienteRepository extends CrudRepository<Ingrediente, Long>{
-    //TODO add code
+public interface IngredienteRepository extends JpaRepository<Ingrediente, Long>{
+    
 }

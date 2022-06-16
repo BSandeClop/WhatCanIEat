@@ -1,4 +1,4 @@
-package net.whatcanieat.backend;
+package net.whatcanieat.backend.backend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
